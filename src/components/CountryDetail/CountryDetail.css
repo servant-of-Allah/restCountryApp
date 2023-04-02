@@ -1,0 +1,125 @@
+:root {
+    /* colors */
+    --elem-background: hsl(0, 0%, 98%);
+    --box-shadow: 1px 0px 5px 1px #0002;
+  }
+  
+  .dark-theme {
+    /* colors */
+    --elem-background: hsl(209, 23%, 22%);
+    --box-shadow: 1px 0px 5px 1px #0002; 
+  }
+
+  .country-name {
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+.tld {
+    text-transform: lowercase;
+}
+
+.country-detail {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.img-detail-page {
+    min-width: 280px;
+    aspect-ratio: 3/2;
+    border: 1px solid #0003;
+}
+
+.detail-info {
+    flex-direction: column;
+}
+
+.btn-container {
+    width: max-content;
+    gap: .6rem;
+    margin: 2rem 0 3rem 5%;
+    padding: .5rem 1.5rem;
+   background-color: var(--elem-background);
+   border-radius: .3rem;
+
+   -webkit-box-shadow: var(--box-shadow);
+   box-shadow: var(--box-shadow);
+}
+
+.general-info-section {
+    align-items: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.general-info-section > div {
+    gap: .35rem;
+}
+
+.border-country-section {
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.border-country-section > p {
+    font-size: 16px;
+}
+
+.border-country-section > div {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .7rem;
+}
+
+.border-country{
+    padding: .5rem 1.5rem;
+    background-color: var(--elem-background);
+    border-radius: .2rem;
+    -webkit-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+}
+
+.not-found {
+    padding-top: .4rem;
+    opacity: .7;
+}
+
+@media screen and (min-width: 650px) {
+    .general-info-section {
+        flex-direction: row;
+        gap: 6rem;
+    }
+
+    .section-padding {
+        width: 85%;
+    }
+
+    .btn-container {
+        margin-left: 7.25%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .country-detail {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: max(6rem, 10vw);
+        margin-top: 1.8rem;
+    }
+
+    .country-detail > img {
+        width: 45%;
+        aspect-ratio: 3/2.3;
+    }
+
+    .detail-info {
+        height: 80%;
+        margin: auto 0;
+    }
+}
