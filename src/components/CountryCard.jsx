@@ -18,7 +18,7 @@ const CountryCard = ({
 
   return (
     <section className="country-card grid" onClick={handleClick}>
-      <img src={flag} alt={flagAlt} className="country-flag" />
+      <img src={flag} alt={flagAlt != '' ? flagAlt : 'country-flag'} className="country-flag" />
       <div className="country-info grid">
         <p className="p-title">{name}</p>
         <p className="p-semi-title">
