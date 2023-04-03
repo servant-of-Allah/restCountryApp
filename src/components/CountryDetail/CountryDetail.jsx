@@ -56,7 +56,7 @@ const CountryDetail = ({
         <img
           className="img-detail-page"
           src={country.flags.svg}
-          alt={country.flagAlt}
+          alt={country.flagAlt !== '' || country.flagAlt !== null ? country.flagAlt : 'country-flag'}
         />
 
         <div className="detail-info grid">
