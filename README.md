@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/servant-of-Allah/restCountryApp.git)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advanced-restcountry-app-solution-using-react-js-iaKWtGkuaj)
 - Live Site URL: [Live](https://servant-of-allah.github.io/restCountryApp/)
 
 ## My process
