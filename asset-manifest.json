@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/servant-of-Allah/restcountrieslive/static/css/main.6405758f.css",
-    "main.js": "/servant-of-Allah/restcountrieslive/static/js/main.f2b07500.js",
-    "index.html": "/servant-of-Allah/restcountrieslive/index.html",
-    "main.6405758f.css.map": "/servant-of-Allah/restcountrieslive/static/css/main.6405758f.css.map",
-    "main.f2b07500.js.map": "/servant-of-Allah/restcountrieslive/static/js/main.f2b07500.js.map"
+    "main.css": "/restCountryApp/static/css/main.6405758f.css",
+    "main.js": "/restCountryApp/static/js/main.f2b07500.js",
+    "index.html": "/restCountryApp/index.html",
+    "main.6405758f.css.map": "/restCountryApp/static/css/main.6405758f.css.map",
+    "main.f2b07500.js.map": "/restCountryApp/static/js/main.f2b07500.js.map"
   },
   "entrypoints": [
     "static/css/main.6405758f.css",
