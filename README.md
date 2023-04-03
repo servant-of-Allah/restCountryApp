@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code](https://github.com/servant-of-Allah/restCountryApp.git)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://servant-of-allah.github.io/restCountryApp/)
 
 ## My process
 
