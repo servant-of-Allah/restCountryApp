@@ -55,7 +55,7 @@ const CountryDetail = ({
       <div className="country-detail flex section-padding">
         <img
           className="img-detail-page"
-          src={country.flags.png}
+          src={country.flags.svg}
           alt={country.flagAlt}
         />
 
